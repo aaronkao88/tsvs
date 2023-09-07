@@ -1,0 +1,292 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* all */
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* header area */
+.q-layout__section--marginal {
+  color: #fff;
+  height: 640px;
+  background-size: cover;
+  background-image: url("@/assets/index.jpg");
+}
+.q-carousel {
+  width: 50%;
+  top: 20px;
+  margin: 0 30px;
+  border-radius: 30px 0 0 30px;
+  height: 500px;
+}
+.q-router-link{
+margin: 10px;
+}
+.q-router-link a{
+color: #fff;
+text-decoration: none;
+}
+.q-router-link a:hover{
+color: #9DB1F2;
+}
+.q-router-link a:hover{
+color: #9DB1F2;
+}
+.text-subtitle1{
+  display: block;
+  position: relative;
+  font-size: 20px;
+  left: 100px;
+}
+/* end header area */
+
+/* 資料查詢 */
+ /* 影片紀錄 */
+ .moviecontent{
+   position: relative;
+   width: 766px;
+   height:  360px;
+   margin: 20px 40px;
+   background-color: #404F80;
+ }
+
+
+/* Tbas list */
+#carousel{
+  position: relative;
+  width: 95%;
+  height: 1100px;
+  top: 20px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #1F2C58 !important;
+}
+/* Tabs content */
+#carousel .content{
+  position: absolute;
+  width: 82%;
+  height: 1100px;
+  bottom: 0;
+  left: 247px;
+  background-color: #EAEDF7;
+  border-radius: 0 30px 30px 0;
+}
+#carousel .content .tabs-content{
+  padding: 60px 20px;
+}
+/* Tabs in Tabs */
+#carousel .content .tabs-content .tabs-2{
+  display: flex;
+}
+#carousel .content .tabs-content .tabs-2 li{
+  list-style: none;
+  margin: 0 20px;
+  padding: 30px 0;
+}
+#carousel .content .tabs-content .tabs-2 li a{
+  color: #000;
+  text-decoration: none;
+}
+#carousel .content .tabs-content .tabs-2 li a:hover{
+  color: #800000;
+}
+
+#carousel .content .tabs-content .tabs-2 li a:focus{
+  color: #800000;
+}
+/* Tabs-Stepper */
+#carousel .content .tabs-content .tabs-2 li.tab-2-step{
+  margin: 0 25px;
+  font-size: 18px;
+}
+#carousel .content .tabs-2-content .step p .btn{
+  position: relative;
+  color: #000000;
+  left: 62px;
+  text-decoration: none;
+  margin: 0 20px;
+  border-radius: 15px;
+  border: 1px solid #121A33;
+  padding: 10px;
+}
+#carousel .content .tabs-2-content .step p .btn-select{
+  position: relative;
+  color: #000000;
+  background-color: #fff;
+  left: 62px;
+  text-decoration: none;
+  margin: 0 10px;
+  border-radius: 15px;
+  border: 1px solid #9DB1F2;
+  padding: 5px;
+}
+#carousel .content .tabs-2-content .step p{
+  margin: 30px 0;
+}
+#carousel .content .tabs-2-content .step .btn-submit{
+  position: relative;
+  color: #fff;
+  left: 42px;
+  text-decoration: none;
+  margin: 0 250px;
+  border-radius: 15px;
+  background-color: #121A33;
+  padding: 10px 40px;
+}
+#carousel .content .tabs-content .btn-submit{
+  position: relative;
+  color: #fff;
+  left: 62px;
+  text-decoration: none;
+  margin: 0 200px;
+  border-radius: 15px;
+  background-color: #121A33;
+  padding: 10px 40px;
+}
+#carousel .content .tabs-2-content .step p .btn:focus{
+  color: #000;
+  background-color: #fff;
+}
+#carousel .content .tabs-2-content .step span#join-error{
+  font-size: 5px;
+  position: relative;
+  top: 3px;
+  left: 280px;
+  color: #800000;
+}
+#carousel .content .tabs-2-content .step span#join-error{
+  color: #800000;
+}
+#carousel .content .tabs-content .tabs-2 li.tab-2-step a{
+  color: #B2B2B2;
+} 
+#carousel .content .tabs-content .tabs-2 li.tab-2-step a:hover{
+  color: #121A33;
+}
+#carousel .content .tabs-content .tabs-2 li.tab-2-step a:focus{
+  color: #121A33;
+}
+/* content text */
+#carousel .content h4{
+  color: #121A33;
+  font-weight: 300;
+  padding: 0 20px;
+}
+#carousel .content p{
+  color: #121A33;
+  line-height: 5px;
+  padding: 0 30px;
+}
+/* tabs text */
+#carousel .tabs h4{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 30px;
+}
+#carousel .tabs li{
+  position: relative;
+  list-style: none;
+  margin: 10px;
+  bottom: 290px;
+  font-size: 15px;
+}
+#carousel .tabs a{
+  color: #ffffff;
+  text-decoration: none;
+}
+#carousel .tabs a:hover{
+  color: #9DB1F2;
+  cursor: pointer;
+  text-decoration: none;
+}
+#carousel .tabs a:focus{
+  color: #9DB1F2;
+  text-decoration: none;
+}
+#carousel .tabs hr{
+  position: relative;
+  display: block;
+  width: 60px;
+  bottom: 290px;
+  margin: 10px 10px;
+}
+/* end tabslist */
+
+.relatedteam{
+width: 100%;
+height: auto;
+margin: 0 50px;
+position: relative;
+}  
+.relatedteam img{
+width: 150px;
+}
+.relatedteam p{
+margin: -50px 150px;
+font-size: 20px;
+}
+/* input相關 */
+input{
+  width: 10%;
+  border-radius: 30px;
+  margin: 0 20px;
+  border: 1px solid #9DB1F2;
+}
+input #regdate{
+  border-radius: 30px;
+  margin: 0 20px;
+  border: 1px solid #9DB1F2;
+}
+.btnspt{
+  color: #9DB1F2;
+  font-size: 25px;
+}
+/* 版權宣告 */
+/* footer-logo */
+#footer{
+  position: relative;
+  top: 90px;
+  background-color: #121A33;
+  padding: 20px 0;
+}
+#footer .row .col img{
+  width: 300px;
+  margin: 100px 200px;
+}
+  #footer .row .col #sitalogo{
+    width: 300px;
+    margin: 20px 209px;
+  }
+#footer .row .col .designby{
+  color: #fff;
+  margin: 0 210px;
+}
+/* footer chinese info */
+#footer #title{
+  width: 15%;
+  margin: 100px 0;
+}
+#footer #title p{
+  width: 100%;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 10px;
+}
+/* footer english info */
+#footer .enginfo{
+  margin: 90px 50px;
+}
+#footer .enginfo p{
+  color: #fff;
+}
+
+/* 內行文字 */
+#footer div.titleinfo{
+  margin-bottom: 40px;
+}
+#footer div.postinfo{
+  margin-bottom: 40px;
+}
+/* 結束版權宣告 */

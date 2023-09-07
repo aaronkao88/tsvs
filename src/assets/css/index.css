@@ -1,0 +1,251 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@100,200&family=Noto+Sans+TC:wght@100;300;400;500&display=swap'); */
+/* header area */
+.q-layout__section--marginal {
+    color: #fff;
+    height: 640px;
+    background-size: cover;
+    background-image: url("@/assets/logo.png");
+}
+.q-carousel {
+    width: 50%;
+    top: 20px;
+    margin: 0 30px;
+    border-radius: 30px 0 0 30px;
+    height: 500px;
+}
+.q-router-link{
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.q-router-link:hover{
+  color: #9DB1F2;
+}
+.q-router-link:focus{
+  color: #9DB1F2;
+}
+#carousel{
+  width: 49%;
+  position: relative;
+  height: 500px;
+  bottom: 480px;
+  float: right;
+  margin: 0 30px;
+  z-index: 3;
+  background-color: #1F2C58 !important;
+  border-radius: 0 30px 30px 0;
+}
+.text-subtitle1{
+    display: block;
+    position: relative;
+    font-size: 20px;
+    left: 100px;
+}
+/* end header area */
+
+/* start mews area */
+.text-h4{
+  position: relative;
+  width: 60%;
+  margin: 20px 200px;
+  font-weight: 300;
+}
+.q-card{
+  height: 15em !important;
+
+  border-radius: 30px;
+  border: 2px solid #000;
+  box-shadow: none;
+}
+.q-card p{
+  text-align: center;
+}
+/* end news area */
+
+/* 行事曆&最新消息 */
+  .bg-calendar{
+    position: relative;
+    background-color: #A4AECC;
+  }
+  /* .q-date{
+    margin: 40px 250px;
+  } */
+  .q-date__content{
+    background-color: #B8C0D9;
+  }
+
+  .date-remark{
+    margin: 0 235px;
+  }
+  .stroke{
+    width: 50%;
+    margin: 0 15px;
+  }
+  .havestroke{
+    width: 50%;
+    position: relative;
+    bottom: 35px;
+    margin: 0 90px;
+  }
+  .activety-more a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    bottom: 70px;
+    left: 500px;
+  }
+  .more a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    bottom: 70px;
+    left: 500px;
+  }
+  /* .q-btn{
+    background-color: #fff;
+  } */
+/* 結束 行事曆&最新消息*/
+
+/* 最新消息 */
+  .bg-activerty{
+    position: relative;
+    background-color: #404F80;
+  }
+  .bg-activerty h4{
+    margin: 45px 130px;
+    color: #fff;
+  }
+  .bg-activerty hr{
+    width: 130px;
+    position: relative;
+    margin: 0 130px;
+    bottom: 20px;
+  }
+  .content-activery .activeInfo .ymmd{
+    width: 20%;
+    position: relative;
+    top: 40px;
+    margin: 0 90px;
+    padding: 0 0;  
+  }
+  .content-activery .activeInfo .ymmd p{
+    color: #fff;
+  }
+  .content-activery .activeInfo .ymmd p.date-3{
+    position: relative;
+    font-size: 43px;
+    left: 0px;
+    font-weight: 100;
+    font-family: 'Noto Sans TC', sans-serif !important;
+  }
+  .content-activery .activeInfo .ymmd p.date-1{
+    position: relative;
+    font-size: 43px;
+    left: 25px;
+    font-weight: 100;
+    font-family: 'Noto Sans TC', sans-serif !important;
+  }
+  .content-activery .activeInfo .ymmd p.date{
+    position: relative;
+    font-size: 43px;
+    left: 20px;
+    font-weight: 100;
+    font-family: 'Noto Sans TC', sans-serif !important;
+  }
+  .content-activery .activeInfo .ymmd p.month{
+    position: relative;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    bottom: 19px;
+    right: 0px;
+  }
+  .content-activery .activeInfo .ymmd p.years{
+    position: relative;
+    font-size: 10px;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    font-weight: 300;
+    bottom: 54px;
+    left: 50px;
+  }
+  .activeText{
+      position: relative;
+      width: 50%;
+      height: 10px;
+      bottom: 137px;
+      margin: 0 250px;
+      font-size: 10px;
+      color: #fff;
+  }
+  .activeText p{
+      position: relative;
+      bottom: 20px;
+  }
+/* 行事曆 */
+/* 結束-行事曆 & 最新消息 */
+
+/* 關於Aboutus */
+  #About{
+    padding: 100px 0;
+    background-color: #DAE0F2;
+  }
+  #About h5{
+    margin: 40px 100px;
+  }
+  #About p{
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #About .text-body2{
+    width: 70%;
+    font-weight: 400;
+    margin: 10px 100px;
+    line-height: 30px;
+  }
+/* 結束-關於Aboutus */
+
+/* 版權宣告 */
+  /* footer-logo */
+  #footer{
+    background-color: #121A33;
+    padding: 20px 0;
+  }
+  #footer .row .col img{
+    width: 300px;
+    margin: 100px 200px;
+  }
+  #footer .row .col #sitalogo{
+    width: 300px;
+    margin: 20px 209px;
+  }
+  #footer .row .col .designby{
+    color: #fff;
+    margin: 0 210px;
+  }
+  /* footer chinese info */
+  #footer #title{
+    width: 15%;
+    margin: 100px 0;
+  }
+  #footer #title p{
+    width: 100%;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 10px;
+  }
+  /* footer english info */
+  #footer .enginfo{
+    margin: 90px 50px;
+  }
+  #footer .enginfo p{
+    color: #fff;
+  }
+
+  /* 內行文字 */
+  #footer div.titleinfo{
+    margin-bottom: 40px;
+  }
+  #footer div.postinfo{
+    margin-bottom: 40px;
+  }
+/* 結束版權宣告 */
